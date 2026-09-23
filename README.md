@@ -53,7 +53,7 @@ This application is deployed directly on **Render**.
 If you wish to clone and run this project locally for development:
 
 1. **Clone the Repository:**
-   git clone [https://github.com/syed-shayzan/wanderlust.git]
+   git clone [https://github.com/syed-shayzan/wanderlust.git]<br>
    cd wanderlust
    
 *Install Dependencies* : <br>
