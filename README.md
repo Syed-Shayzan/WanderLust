@@ -56,44 +56,44 @@ If you wish to clone and run this project locally for development:
    git clone [https://github.com/syed-shayzan/wanderlust.git]
    cd wanderlust
    
-*Install Dependencies*
-Bash
+*Install Dependencies* : <br>
+Bash <br>
 npm install
 
-*Configure Environment Variables:*
-Create a local .env file in the root folder with your own API credentials:
-PORT=8080
-ATLASDB_URL=your_mongodb_connection_string
-SECRET=your_session_secret
-CLOUD_NAME=your_cloudinary_cloud_name
-CLOUD_API_KEY=your_cloudinary_api_key
-CLOUD_API_SECRET=your_cloudinary_api_secret
-MAP_TOKEN=your_map_api_token
+*Configure Environment Variables:*<br>
+Create a local .env file in the root folder with your own API credentials:<br>
+PORT=8080<br>
+ATLASDB_URL=your_mongodb_connection_string<br>
+SECRET=your_session_secret<br>
+CLOUD_NAME=your_cloudinary_cloud_name<br>
+CLOUD_API_KEY=your_cloudinary_api_key<br>
+CLOUD_API_SECRET=your_cloudinary_api_secret<br>
+MAP_TOKEN=your_map_api_token<br>
 
-*start the server*
-Bash
+*start the server : *<br>
+Bash<br>
 npm start or node app.js
 
-**Floder Structure 📁**
-Wanderlust/
-├── init/              # Database initialization and sample data
-├── models/            # Mongoose schemas (Listing, Review, User)
-├── routes/            # Express route handlers
-├── utils/             # Helper functions & custom error classes
-├── views/             # EJS views / React components
-├── public/            # Static assets (CSS, JS scripts, Images)
-├── .gitignore         # Excludes node_modules and .env from git
-├── app.js             # Server entry point
-└── package.json       # Project dependencies & scripts
+**Floder Structure 📁**<br>
+Wanderlust/<br>
+├── init/              # Database initialization and sample data<br>
+├── models/            # Mongoose schemas (Listing, Review, User)<br>
+├── routes/            # Express route handlers<br>
+├── utils/             # Helper functions & custom error classes<br>
+├── views/             # EJS views / React components<br>
+├── public/            # Static assets (CSS, JS scripts, Images)<br>
+├── .gitignore         # Excludes node_modules and .env from git<br>
+├── app.js             # Server entry point<br>
+└── package.json       # Project dependencies & scripts<br>
 
 
-🤝 Contributing
-Contributions, issues, and feature requests are welcome!
-Fork the Project
-Create your Feature Branch (git checkout -b feature/AmazingFeature)
-Commit your Changes (git commit -m 'Add some AmazingFeature')
-Push to the Branch (git push origin feature/AmazingFeature)
-Open a Pull Request
+🤝 Contributing<br>
+Contributions, issues, and feature requests are welcome!<br>
+Fork the Project<br>
+Create your Feature Branch (git checkout -b feature/AmazingFeature)<br>
+Commit your Changes (git commit -m 'Add some AmazingFeature')<br>
+Push to the Branch (git push origin feature/AmazingFeature)<br>
+Open a Pull Request<br>
 
-📜 License
+📜 License<br>
 This project is licensed under the MIT License.
